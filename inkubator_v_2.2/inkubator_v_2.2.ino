@@ -224,7 +224,7 @@ void clear() {
 void setup()
 {
   lcd.begin(16, 4);
-  symbols[3][8];
+  symbols;
   syminit();
   logo();
   pinMode(8, OUTPUT);
